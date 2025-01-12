@@ -60,6 +60,10 @@ hr {
     border: none;
     text-align: center;
 }
+.smallHR {
+    width: 33%;
+}
+
 .footer-text {
     font-family: 'Righteous', sans-serif;
     font-style: normal;
@@ -95,6 +99,7 @@ hr {
 .content {
     padding: 20px;
     text-align: center;
+    cursor: default;
 }
 
 .clickable-image {
