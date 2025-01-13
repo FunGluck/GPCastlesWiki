@@ -34,11 +34,11 @@ footer {
     width: 352px;
 }
 .firstTextBold {
-    font-size: 64px;
+    font-size: 4rem;
     color: white;
 }
 .firstText {
-    font-size: 48px;
+    font-size: 3rem;
 }
 .firstTexts {
     position: absolute;
@@ -68,15 +68,15 @@ hr {
     font-family: 'Righteous', sans-serif;
     font-style: normal;
     font-weight: 300;
-    font-size: 18px;
-    line-height: 25px;
+    font-size: 1.5rem;
+    /*line-height: 25px;*/
     color: #626162;
 }
 .header-footer {
     font-family: 'Righteous', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 1.5rem;
     line-height: 30px;
     color: #737382;
 }
@@ -140,9 +140,10 @@ hr {
 }
 .modal-text {
     font-family: 'Roboto', sans-serif;
-    font-size: 18px;
+    font-size: 1rem;
     color: #333;
     margin-top: 10px;
+    margin-bottom: 10px;
 }
 .close-button {
     background: #0C0C10;
@@ -212,24 +213,24 @@ body.blurred .content {
 
 
     .firstTextBold {
-        font-size: 32px;
+        /*font-size: 2rem;*/
     }
 
     .firstText {
-        font-size: 24px;
+        /*font-size: 1.5rem;*/
         text-wrap: normal;
         width: 70vw;
 
     }
 
-    .blueText {
-        font-size: 18px;
-    }
+    /*.blueText {*/
+    /*    font-size: 1rem;*/
+    /*}*/
 
     .firstTexts {
         position: absolute;
-        left: 17.5vw;
-        top: 90vh;
+        left: 16.5vw;
+        top: 80vh;
     }
 
     .content {
@@ -244,7 +245,7 @@ body.blurred .content {
     }
 
     .footer-text, .header-footer {
-        font-size: 14px;
+        font-size: 1rem;
     }
     .smallHR {
         width: 100%;
@@ -254,16 +255,16 @@ body.blurred .content {
 
 @media (max-width: 480px) {
     .firstTextBold {
-        font-size: 24px;
+        font-size: 3rem;
     }
 
     .firstText {
-        font-size: 18px;
+        font-size: 2rem;
     }
     .firstTexts {
         position: absolute;
-        left: 25vw;
-        top: 105vh;
+        left: 20vw;
+        top: 80vh;
     }
 
     .modal-content p {
